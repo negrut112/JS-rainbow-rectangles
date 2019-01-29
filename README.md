@@ -12,7 +12,7 @@
 ## JavaScript
 <p>To generate the rectangles I used a for loop where x manipulate the size of the rectangles and their position as well. starting from a width of 450 and 300 heigth the rectangles decrement their size by 20 on x-axis and 17 on y-axis.</p>
 <p>For colors I used the same loop decrementing hue parameter by 17 for each rectangle.</p>
-<p>for(var x = 0;x&lt;17;x++){<br>
+<pre><code>for(var x = 0;x&lt;17;x++){<br>
 context.fillStyle=‘hsl(’ +(360-(360/17))<em>x+ ‘, 50%, 45%,1)’;<br>
 context.fillRect(x</em>10,x<em>9, 450-20</em>x, 300-17*x);<br>
-}</p>
+}</pre></code>
